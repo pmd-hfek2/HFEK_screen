@@ -1,6 +1,13 @@
 // Precision Microdrives Haptic Feedback Evaluation Kit
-// Haptic Touchscreen Example Application
+// Haptic Touchscreen Example Application (Arduino Mega)
+// REFERENCEE: https://www.precisionmicrodrives.com/haptic-feedback/haptic-feedback-example-applications-haptic-touchscreen/
 
+//*************************** WIRING  **************************************//
+/* PMD Haptic Feedback Evaluation Kit (HFEK) in Developer Mode
+ * UTFT screen pins 6, 5, 4, 3, 2
+ * UTFT touch pins  9, 11, 12, 13
+ */
+ 
 #include <tinyFAT.h>
 #include <UTFT.h>
 #include <UTFT_tinyFAT.h>

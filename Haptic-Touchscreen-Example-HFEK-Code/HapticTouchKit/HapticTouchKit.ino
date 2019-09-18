@@ -18,7 +18,17 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 // IN THE SOFTWARE.
+// REFERENCE: https://www.precisionmicrodrives.com/haptic-feedback/haptic-feedback-example-applications-haptic-touchscreen/
 
+//*************************** WIRING  **************************************//
+/* PMD Haptic Feedback Evaluation Kit (HFEK) in Developer Mode
+ * Arduino Uno (from Arduino Mega)
+ * Navigation   A3
+ * Confirmation A2
+ * Reset        3
+ * Power        12
+ */
+ 
 // Include system headers
 #define __PROG_TYPES_COMPAT__
 #include <avr/pgmspace.h>
@@ -130,5 +140,3 @@ void setupPins()
         pinMode( 12,	INPUT );
         pinMode( 3,	INPUT );
 }	// setupPins
-
-
